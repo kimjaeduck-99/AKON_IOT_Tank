@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!--메인 화면입니다. -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>AKON LINC사업단 │모바일│APP│Web Site│IOT│Water│IT│Smart Farm</title>
+</head>
+
+<script>
+  function show() { // <img>에 이미지 달기
+    document.getElementById("fig").src="QR.JPG";
+  }
+  function hide() { // <img>에 이미지 제거
+   document.getElementById("fig").src="";
+ }
+ </script>
+
+<body>
+<hr>
+    <img src="AKON.jpeg" alt="AKON브랜드이미지">
+<hr>
+    <h1 style="color:red">세상을 연결하다. 우리의 손에서.</h1>
+
+    <ul>
+      <a href = "2.html">
+        <li>팀 구성</li></a>   <!--제품 원가-->
+      <a href = "3.html">
+        <li>제품 소개</li></a>  <!--제품 원가-->
+      <a href = "4.html">
+        <li>아이템 설명서</li></a> <!--제품 원가-->
+      <a href = "5.html">
+        <li>예산 재무재표</li></a> <!--제품 원가-->
+
+
+
+
+  <h3 onmouseover="show()" onmouseout="hide()"></h3>
+
+<span style="font-size:12px;font-family:Helvetica;">세상을 연결하는 힘 IOT, 우리와 함께</span>
+  <h2>QR 코드와 APP으로 함께.    </h2>
+<strong><p onmouseover="show()" onmouseout="hide()">도움이 필요하신가요? AKON의 전문 기술자와 함께</p></strong>
+<hr>
+<div><img id="fig" src=""></div>
+</body>
+
+
+
+</html>
